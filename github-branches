@@ -1,0 +1,4 @@
+$ git branch -vv
+* bug-fix-revert 5b1d23c [origin/bug-fix-revert] Revert "Fix typo in README.md"
+  bug-fix-typo   07643d3 [origin/bug-fix-typo] Fix typo in README.md
+  main           07643d3 [origin/main] Fix typo in README.md

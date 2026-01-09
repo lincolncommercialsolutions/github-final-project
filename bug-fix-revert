@@ -1,0 +1,27 @@
+$ curl -s "https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pulls?head=lincolncommercialsolutions:main"
+[
+  {
+    "url": "https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pulls/[NUMBER]",
+    "id": "[PR_ID]",
+    "state": "open",
+    "title": "Final project submission",
+    "user": {
+      "login": "lincolncommercialsolutions"
+    },
+    "head": {
+      "label": "lincolncommercialsolutions:main",
+      "ref": "main",
+      "repo": {
+        "full_name": "lincolncommercialsolutions/github-final-project",
+        "fork": true
+      }
+    },
+    "base": {
+      "label": "ibm-developer-skills-network:main",
+      "ref": "main"
+    }
+  }
+]
+
+Note: After creating your pull request from github-final-project to upstream, 
+run the above curl command to get the actual PR data and update this file.
