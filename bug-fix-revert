@@ -1,27 +1,31 @@
-$ curl -s "https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pulls?head=lincolncommercialsolutions:main"
-[
-  {
-    "url": "https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pulls/[NUMBER]",
-    "id": "[PR_ID]",
-    "state": "open",
-    "title": "Final project submission",
-    "user": {
-      "login": "lincolncommercialsolutions"
-    },
-    "head": {
-      "label": "lincolncommercialsolutions:main",
-      "ref": "main",
-      "repo": {
-        "full_name": "lincolncommercialsolutions/github-final-project",
-        "fork": true
-      }
-    },
-    "base": {
-      "label": "ibm-developer-skills-network:main",
-      "ref": "main"
+$ curl -s "https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pulls/4174"
+{
+  "url": "https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pulls/4174",
+  "id": 3158501826,
+  "number": 4174,
+  "state": "closed",
+  "title": "Final project submission",
+  "user": {
+    "login": "lincolncommercialsolutions",
+    "id": 228275200
+  },
+  "head": {
+    "label": "lincolncommercialsolutions:main",
+    "ref": "main",
+    "sha": "c28a3c9c68e35ca0edd8304fc73a830f16da032f",
+    "repo": {
+      "id": 1130856666,
+      "name": "github-final-project",
+      "full_name": "lincolncommercialsolutions/github-final-project",
+      "fork": true
     }
-  }
-]
-
-Note: After creating your pull request from github-final-project to upstream, 
-run the above curl command to get the actual PR data and update this file.
+  },
+  "base": {
+    "label": "ibm-developer-skills-network:main",
+    "ref": "main",
+    "sha": "ad95b0abe521c61effc692e83d5babd5fbf25910"
+  },
+  "merged": false,
+  "created_at": "2026-01-09T05:54:33Z",
+  "closed_at": "2026-01-09T05:54:43Z"
+}
